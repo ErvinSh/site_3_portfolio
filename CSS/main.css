@@ -366,13 +366,17 @@ details div i {
     .request_right h2 {
         font-size: 18px;
     }
+    .request_h2_2 {
+        margin: 0 auto;
+    }
+
 }
 @media screen and (max-width:570px) {
     .header {
         background-position: 65%;
     }
     .header_h1 {
-        font-size: 20px;
+        font-size: 22px;
         color: var(--first-color);
     }
     .header_h3 {
@@ -419,7 +423,7 @@ details div i {
 @media screen and (max-width:400px) {
     .request_right {
         width: 260px;
-        height: 420px;`
+        height: 420px;
     }
     .request_right_phone span {
         font-size: 11px;
@@ -437,17 +441,24 @@ details div i {
     .request_btn span {
         font-size: 8px;
     }
+    .request_btn i {
+        font-size: 10px;
+    }
     .request_arrow {
         font-size: 16px;
+    }
+    .request_arrow i {
+        display: none;
     }
     .fa-long-arrow-right {
         font-size: 15px;
     }
     .request_h2 i {
-        font-size: 16px;
+        font-size: 32px;
+        margin-right: 10px;
     } 
     .request_h2 span {
-        font-size: 20px;
+        font-size: 26px;
     }
     .request_h2_1 {
         min-width: 50px;
