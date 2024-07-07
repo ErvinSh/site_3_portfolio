@@ -438,6 +438,10 @@ details div i {
     .request_grid {
         gap: 50px;
     }
+    .footer {
+        min-height: 700px;
+        height: 100%;
+    }
     .footer_flex {
         flex-direction: column;
     }
