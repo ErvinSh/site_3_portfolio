@@ -395,6 +395,9 @@ details div i {
     line-height: 1.4em;
     font-weight: 500;
 }
+.footer_flex_center .footer_right_phone span a {
+    color: var(--third-color);
+}
 .footer_flex_center .footer_right_clock {
     display: flex;
     align-items: baseline;
